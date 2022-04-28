@@ -4,7 +4,7 @@ from typing import List
 
 import schemas.Usersschem
 from schemas.Usersschem import User, UserCreate
-from repositories.Usersrep import UserRepository
+from User.Usersrep import UserRepository
 from auth.jwt import get_current_user
 
 

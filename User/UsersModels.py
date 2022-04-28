@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Integer
-from . import hashing
+from auth import hashing
 from database import Model
 from uuid import uuid4
 from sqlalchemy.dialects.postgresql import UUID
